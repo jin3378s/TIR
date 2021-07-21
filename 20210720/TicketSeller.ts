@@ -46,7 +46,7 @@ class TicketSeller {
 
   // 이제 ticketSeller는 audience가 가방을 가졌는지, 지갑을 가졌는지, 주머니에 있는지 알지 못한다.
   public sellTo(audience: Audience): void {
-    const ticket: Ticket = this.ticketSeller.getTicketOffice().getTicket();
+    const ticket: Ticket = this.ticketOffice.getTicket();
     audience.buy(ticket);
     this.ticketOffice.plusAmount(ticket.getFee());
   }
