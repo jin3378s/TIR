@@ -58,7 +58,7 @@ function createStatementData(invoice, plays) {
   return statementData;
 }
 
-/* performance*/
+/* performance */
 class PerformanceCalculator {
   constructor(performance, play) {
     this.performance = performance;
