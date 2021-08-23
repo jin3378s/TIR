@@ -1,0 +1,23 @@
+{
+  "name": "TIR",
+  "version": "1.0.0",
+  "description": "- Today I Read",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jin3378s/TIR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jin3378s/TIR/issues"
+  },
+  "homepage": "https://github.com/jin3378s/TIR#readme",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
